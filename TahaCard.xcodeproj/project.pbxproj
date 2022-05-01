@@ -11,6 +11,8 @@
 		FEC1C01D281F2AB10098CA5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1C01C281F2AB10098CA5A /* ContentView.swift */; };
 		FEC1C01F281F2AB20098CA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC1C01E281F2AB20098CA5A /* Assets.xcassets */; };
 		FEC1C022281F2AB20098CA5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC1C021281F2AB20098CA5A /* Preview Assets.xcassets */; };
+		FEC1C02A281F2C3C0098CA5A /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC1C029281F2C3C0098CA5A /* Pacifico-Regular.ttf */; };
+		FEC1C049281F33720098CA5A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1C048281F33720098CA5A /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		FEC1C01C281F2AB10098CA5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FEC1C01E281F2AB20098CA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEC1C021281F2AB20098CA5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEC1C029281F2C3C0098CA5A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		FEC1C045281F2E9B0098CA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FEC1C048281F33720098CA5A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		FEC1C019281F2AB10098CA5A /* TahaCard */ = {
 			isa = PBXGroup;
 			children = (
+				FEC1C045281F2E9B0098CA5A /* Info.plist */,
+				FEC1C028281F2C240098CA5A /* fonts */,
 				FEC1C01A281F2AB10098CA5A /* TahaCardApp.swift */,
 				FEC1C01C281F2AB10098CA5A /* ContentView.swift */,
 				FEC1C01E281F2AB20098CA5A /* Assets.xcassets */,
 				FEC1C020281F2AB20098CA5A /* Preview Content */,
+				FEC1C048281F33720098CA5A /* InfoView.swift */,
 			);
 			path = TahaCard;
 			sourceTree = "<group>";
@@ -65,6 +73,14 @@
 				FEC1C021281F2AB20098CA5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEC1C028281F2C240098CA5A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1C029281F2C3C0098CA5A /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC1C02A281F2C3C0098CA5A /* Pacifico-Regular.ttf in Resources */,
 				FEC1C022281F2AB20098CA5A /* Preview Assets.xcassets in Resources */,
 				FEC1C01F281F2AB20098CA5A /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC1C01D281F2AB10098CA5A /* ContentView.swift in Sources */,
+				FEC1C049281F33720098CA5A /* InfoView.swift in Sources */,
 				FEC1C01B281F2AB10098CA5A /* TahaCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = C6R68ZKRSM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TahaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = C6R68ZKRSM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TahaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
